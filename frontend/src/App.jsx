@@ -264,6 +264,7 @@ const App = () => {
                       setStockName(newValue.name);
                     }
                   }}
+                  sx={{width:"77vw"}}
                   renderInput={(params) => (
                     <TextField 
                       {...params} 
